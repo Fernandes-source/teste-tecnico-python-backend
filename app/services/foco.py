@@ -6,7 +6,7 @@ def acrescentar_registros(dado):
 def mostrar_registros():
     return registros
 
-def medir-registros():
+def Diagnosticar():
     if not registros:
         return {"msg": "Não há registros de foco"}
     
