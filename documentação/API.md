@@ -21,12 +21,13 @@ Cria um novo registro de foco.
 
 ###Body:
 
-````Json
+```Json
 {
 "nivel_foco": 5,
 "tempo_minutos": 50,
 "comentario": "Estudando backend em python"
  }
+```
 
 ## Get /api/registro_foco
 
@@ -45,4 +46,4 @@ sugere melhoria
 "tempo_total": 120,
 "feedback": "Equilibrado"
 }
-````
+```
