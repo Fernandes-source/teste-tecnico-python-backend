@@ -6,12 +6,14 @@ Ola, essa api foi feita como desafio simples para uma vaga python Da queridissim
 A principio não sabia muito como faria, mas com um certo jogo de cintura backend(bem travado) fui desenrolando no codigo e nos erros do console esse meu frankenstein.
 
 Como aprendi praticando na cubos academy montagem de apis segui a risca a regra de ouro para evitar erros de logica e validação.
+
 visando:
-Estrutura de pastas
-Modelagens de dados
-logica de serviços
-Rotas a serem usadas
-integração geral com o arquivo mestre (main)
+
+- Estrutura de pastas
+- Modelagem de dados
+- Lógica de serviços
+- Criação de rotas
+- Validação básica
 
 Sabendo disso deixemos de conversa e vamos ao codigo.
 
