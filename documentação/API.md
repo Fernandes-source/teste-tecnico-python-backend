@@ -49,3 +49,37 @@ sugere melhoria
 "feedback": "Equilibrado"
 }
 ```
+
+# Rodando o projeto
+
+git clone https://github.com/SEU-USUARIO/teste-tecnico-python-backend.git
+cd teste-tecnico-python-backend
+
+python -m venv venv
+source venv/Scripts/activate # Windows
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+## A API estará disponível em:
+
+http://127.0.0.1:8000
+
+## Documentação interativa:
+
+http://127.0.0.1:8000/docs
+
+Teste rápido
+POST /api/v1/registro-foco
+
+```json
+{
+  "nivel_foco": 4,
+  "tempo_minutos": 30,
+  "comentario": "Sessão de estudo"
+}
+```
+
+GET /api/v1/diagnostico-produtividade
+
+Armazenamento em memória (Os dados resetam ao reiniciar a API).
