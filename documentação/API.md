@@ -20,10 +20,12 @@ Sabendo disso deixemos de conversa e vamos ao codigo.
 Cria um novo registro de foco.
 
 ###Body:
+
+````Json
 {
 "nivel_foco": 5,
 "tempo_minutos": 50,
-"comentario": "Estudando backend em python"  
+"comentario": "Estudando backend em python"
  }
 
 ## Get /api/registro_foco
@@ -37,8 +39,10 @@ calcula media de foco
 soma tempo total de concentração
 sugere melhoria
 
+```Json
 {
 "media_foco": 4,
 "tempo_total": 120,
 "feedback": "Equilibrado"
 }
+````
