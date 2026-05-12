@@ -14,7 +14,7 @@ def Diagnosticar():
     tempo_total = sum(r.tempo_minutos for r in registros)
 
     if media < 3:
-        feedback = "Faça pausas maiores e mecha menos no celular"
+        feedback = "Faça pausas maiores e não utilize o celular"
     elif media > 4:
         feedback = "Boa perfomance, continue"
     else:
