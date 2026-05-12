@@ -56,9 +56,11 @@ git clone https://github.com/SEU-USUARIO/teste-tecnico-python-backend.git
 cd teste-tecnico-python-backend
 
 python -m venv venv
+
 source venv/Scripts/activate # Windows
 
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload
 
 ## A API estará disponível em:
